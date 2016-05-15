@@ -3,7 +3,7 @@ Source code and Update set for NASSCOM TechNgage
 
 The proof-of-concept (POC) application was developed on ServiceNow, a cloud platform as a service tool for service management
 
-The codebase for the  has two files
+The codebase for the  has two files that can be used for code review
 
 sys_script_include_4b131c0f4fd31200d9e64fe18110c735 - Code is used to set the location and is used for tagging a specific location
 
