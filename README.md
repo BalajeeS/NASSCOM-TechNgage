@@ -13,9 +13,13 @@ The ServiceNow update set has instructions for the platform activate and execute
 Whenever the application should be set up on a new ServiceNow instance, the update set is used
 
 The application is already setup in a ServiceNow developer instance. The instance and the application can be slow as its a developer status instance
+
 Link: https://dev12392.service-now.com
+
 User credentials for TechNgage evaluators
+
 Username: External_User1
+
 Password: 123external
 
 
