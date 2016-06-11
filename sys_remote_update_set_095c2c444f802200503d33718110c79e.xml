@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2016-06-11 13:05:14">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>NASSCOM V1</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>4bea9b334f731200503d33718110c785</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>095c2c444f802200503d33718110c79e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_c6daa3774f731200503d33718110c7f7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Tax Survey">7d2cc7fb4f331200503d33718110c767</application><assessment/><content_page/><device_type/><filter/><hint>Shows the map of tagged properties</hint><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Property Survey Map</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query>/$map_page_primary.do?sysparm_sys_id=506edb734f731200503d33718110c749</query><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 08:19:55</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>c6daa3774f731200503d33718110c7f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Property Map</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_c6daa3774f731200503d33718110c7f7</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 08:19:55</sys_updated_on><timeline_page/><title>Property Map</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>015c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>Property Map</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_state</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_state" table="u_tax_survey"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>State</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_state</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:23:02</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b1405b3f4f331200503d33718110c795</sys_id><sys_mod_count>0</sys_mod_count><sys_name>State</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_state</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:23:02</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>015c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.State</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_dde92facc0a8016501f4c4a351133247</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="dde92facc0a8016501f4c4a351133247" sys_domain="global" table="sc_req_item" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>9b8b94404f802200503d33718110c743</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cat_item</element><position>1</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>1f8b94404f802200503d33718110c743</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>request</element><position>2</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>9f8b94404f802200503d33718110c743</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>request.requested_for</element><position>3</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>138b94404f802200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>due_date</element><position>4</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>938b94404f802200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>location</element><position>5</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>178b94404f802200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>configuration_item</element><position>6</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>978b94404f802200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>watch_list</element><position>7</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>1b8b94404f802200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>8</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>9b8b94404f802200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_at</element><position>9</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>1f8b94404f802200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_by</element><position>10</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>9f8b94404f802200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>stage</element><position>11</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>138b94404f802200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>12</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>938b94404f802200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>quantity</element><position>13</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>178b94404f802200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>estimated_delivery</element><position>14</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>978b94404f802200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>backordered</element><position>15</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>1b8b94404f802200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>order_guide</element><position>16</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>9b8b94404f802200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>17</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>1f8b94404f802200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>com_glideapp_servicecatalog_veditor</element><position>18</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>9f8b94404f802200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Variable Editor">86863af2c611229101b57dcc29ac7666</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>19</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>138b94404f802200503d33718110c746</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>20</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 11:51:54</sys_created_on><sys_id>938b94404f802200503d33718110c746</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="Default view">dde92facc0a8016501f4c4a351133247</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sc_req_item</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2005-05-15 01:12:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dde92facc0a8016501f4c4a351133247</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sc_req_item</sys_name><sys_overrides/><sys_package display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">bd359e154f311200503d33718110c793</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_dde92facc0a8016501f4c4a351133247</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 11:51:54</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>015ce8844f802200503d33718110c7bd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>Requested Item</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_3c0c87fb4f331200503d33718110c7e6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Property Survey</label><live_feed_enabled>false</live_feed_enabled><name>u_tax_survey</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Task" name="task">6681d6514f311200503d33718110c7a0</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:05:01</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>3c0c87fb4f331200503d33718110c7e6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Property Survey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_3c0c87fb4f331200503d33718110c7e6</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 10:26:12</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>055c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Property Survey</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_7412b7f74f731200503d33718110c716</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow write for records in u_tax_survey, always.</description><name>u_tax_survey</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 08:50:42</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>7412b7f74f731200503d33718110c716</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_tax_survey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_7412b7f74f731200503d33718110c716</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 08:50:42</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>055c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>u_tax_survey</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_latitude</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_latitude" table="u_tax_survey"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Latitude</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_latitude</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">float</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b27d8ffb4f331200503d33718110c744</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Latitude</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_latitude</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>095c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Latitude</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_9a15f7f74f731200503d33718110c74b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 09:04:08</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>9a15f7f74f731200503d33718110c74b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_tax_survey.*.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_tax_survey.*">7a05f7f74f731200503d33718110c74a</sys_security_acl><sys_update_name>sys_security_acl_role_9a15f7f74f731200503d33718110c74b</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 09:04:08</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>095c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey.*</table>
+<target_name>u_tax_survey.*.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>cmn_map_page_613ad4404f802200503d33718110c732</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cmn_map_page"&gt;&lt;cmn_map_page action="INSERT_OR_UPDATE"&gt;&lt;center_address&gt;Chennai, India&lt;/center_address&gt;&lt;center_latitude/&gt;&lt;center_longitude/&gt;&lt;controls_size&gt;large&lt;/controls_size&gt;&lt;initial_zoom&gt;2&lt;/initial_zoom&gt;&lt;name&gt;Show INC &amp;amp; REQ&lt;/name&gt;&lt;overview&gt;false&lt;/overview&gt;&lt;refresh_on_zoom&gt;false&lt;/refresh_on_zoom&gt;&lt;script&gt;&lt;![CDATA[var uri = gs.getProperty("glide.servlet.uri");
+//create an aggregate query on the incident table
+var count = new GlideAggregate('incident');
+//set condition for active incidents
+count.addQuery('active', 'true');
+//set aggregate field to location to get count by location
+count.addAggregate('COUNT', 'location');
+//execute the query
+count.query();
+ 
+//loop through the results
+while (count.next()) {
+ 
+ //get the current record's location
+ var loc = count.location;
+ //get the count of incidents for this location
+ var locCount = count.getAggregate('COUNT', 'location');
+ //only display location is there are active incidents
+ if (locCount &gt; 0) {
+ //create new new map item for this location
+ var item = map.addItem(count);
+ //set lat/long from the location record
+ item.latitude = loc.latitude;
+ item.longitude = loc.longitude; 
+ 
+ //create a marker label with the count
+ item.marker_label = locCount;
+ //define label offset for proper position
+ item.label_offset_left = -4;
+ item.label_offset_top = -20;
+ 
+ //option to define table and record for label hyperlink
+ //setting table and sys_id will override the use of html parameter
+ //item.table = 'cmn_location';
+ //item.sys_id = loc;
+ 
+ //build the link to the list of incidents for the location
+ var link = 'href=' + uri + 'incident_list.do?sysparm_query=active%3Dtrue^location%3D' + loc;
+ //build the html value to be displayed when you click the map icon
+ item.html='&lt;a ' + link + '&gt;' + loc.getDisplayValue() + ' (' + locCount + '-INC)&lt;/a&gt;';
+ 
+ //link to the icon image
+ item.icon = "images/red_marker.png";
+ //set the size of the icon based on the number of active incidents
+ item.icon_width = 24;
+ item.icon_height = 24;
+ 
+ }
+}
+
+
+var uri = gs.getProperty("glide.servlet.uri");
+//create an aggregate query on the incident table
+var req_count = new GlideAggregate('sc_req_item');
+//set condition for active incidents
+req_count.addQuery('active', 'true');
+//set aggregate field to location to get count by location
+req_count.addAggregate('COUNT', 'location');
+//execute the query
+req_count.query();
+ 
+//loop through the results
+while (req_count.next()) {
+ 
+ //get the current record's location
+ var loc = req_count.location;
+ //get the count of incidents for this location
+ var locCount = count.getAggregate('COUNT', 'location');
+ //only display location is there are active incidents
+ if (locCount &gt; 0) {
+ //create new new map item for this location
+ var item = map.addItem(count);
+ //set lat/long from the location record
+ item.latitude = loc.latitude;
+ item.longitude = loc.longitude; 
+ 
+ //create a marker label with the count
+ item.marker_label = locCount;
+ //define label offset for proper position
+ item.label_offset_left = -4;
+ item.label_offset_top = -20;
+ 
+ //option to define table and record for label hyperlink
+ //setting table and sys_id will override the use of html parameter
+ //item.table = 'cmn_location';
+ //item.sys_id = loc;
+ 
+ //build the link to the list of incidents for the location
+ var link = 'href=' + uri + 'sc_req_item_list.do?sysparm_query=active%3Dtrue^location%3D' + loc;
+ //build the html value to be displayed when you click the map icon
+ item.html='&lt;a ' + link + '&gt;' + loc.getDisplayValue() + ' (' + locCount + '-REQ)&lt;/a&gt;';
+ 
+ //link to the icon image
+ item.icon = "/blue_marker.png";
+ //set the size of the icon based on the number of active incidents
+ item.icon_width = 24;
+ item.icon_height = 24;
+ 
+ }
+}]]&gt;&lt;/script&gt;&lt;show_device_location&gt;true&lt;/show_device_location&gt;&lt;suffix/&gt;&lt;sys_class_name&gt;cmn_map_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 12:05:35&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;613ad4404f802200503d33718110c732&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show INC &amp;amp; REQ&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;cmn_map_page_613ad4404f802200503d33718110c732&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 12:07:37&lt;/sys_updated_on&gt;&lt;type&gt;terrain&lt;/type&gt;&lt;type_selection&gt;buttons&lt;/type_selection&gt;&lt;/cmn_map_page&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>0d5c2c444f802200503d33718110c79e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>Show INC &amp; REQ</target_name>
+<type>Map Page</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_payment_amout</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_payment_amout" table="u_tax_survey"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Payment Amout</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_payment_amout</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3e7d8ffb4f331200503d33718110c74d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Payment Amout</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_payment_amout</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>0d5c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Payment Amout</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_29ac1b334f731200503d33718110c7c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Tax Survey">a08c1bff4f331200503d33718110c7d4</application><filter/><name>Tax Surveys</name><order>100</order><path>/$map_page_primary.do?sysparm_sys_id=506edb734f731200503d33718110c749</path><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 08:18:06</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>29ac1b334f731200503d33718110c7c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tax Surveys</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_29ac1b334f731200503d33718110c7c4</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 08:18:06</sys_updated_on><table/><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>0d5ce8844f802200503d33718110c7bc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>Tax Surveys</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_tax_survey_u_payment_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_payment_status" table="u_tax_survey" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_payment_status</element><hint/><inactive>false</inactive><label>Pending</label><language>en</language><name>u_tax_survey</name><sequence>0</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:31:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b312573f4f331200503d33718110c73b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:31:05</sys_updated_on><value>Pending</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_payment_status</element><hint/><inactive>false</inactive><label>Paid</label><language>en</language><name>u_tax_survey</name><sequence>1</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:31:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ff12573f4f331200503d33718110c73b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:31:05</sys_updated_on><value>Paid</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_payment_status</element><hint/><inactive>false</inactive><label>Breached</label><language>en</language><name>u_tax_survey</name><sequence>2</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:31:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb12573f4f331200503d33718110c73c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:31:05</sys_updated_on><value>Breached</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_payment_status</element><name>u_tax_survey</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:31:05</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3f12573f4f331200503d33718110c73b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_payment_status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_tax_survey_u_payment_status</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:31:05</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>415c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Payment Status</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_tax_survey__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Property Survey" language="en" table="u_tax_survey"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Property Survey</label><language>en</language><name>u_tax_survey</name><plural>Property Surveys</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:05:02</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>0a2cc7fb4f331200503d33718110c76c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Property Survey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_tax_survey__en</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 10:26:13</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>415c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Property Survey</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_0e2cc7fb4f331200503d33718110c76e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><name>u_tax_survey</name><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:05:02</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>0e2cc7fb4f331200503d33718110c76e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_tax_survey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_0e2cc7fb4f331200503d33718110c76e</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:05:02</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>415ce8844f802200503d33718110c7bd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>u_tax_survey</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_tax_survey"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_tax_survey&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:05:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;4e2cc7fb4f331200503d33718110c769&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_tax_survey&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_tax_survey_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:05:01&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>455c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_75557b3b4f731200503d33718110c738</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;false&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow write for location in u_tax_survey, if the ACL script returns true.&lt;/description&gt;&lt;name&gt;u_tax_survey.location&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var answer;
+
+if(gs.getUser().isMemberOf('Surveyors') || gs.hasRole('admin'))
+	{
+		answer =  true;
+	}
+else
+	{
+		answer = false;
+	}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 09:04:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;75557b3b4f731200503d33718110c738&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_tax_survey.location&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_75557b3b4f731200503d33718110c738&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 09:23:50&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>455c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey.location</table>
+<target_name>u_tax_survey.location</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_location_not_found</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_location_not_found" table="u_tax_survey"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Location Not Found</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location_not_found</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">boolean</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2e7d8ffb4f331200503d33718110c742</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Location Not Found</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_location_not_found</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>495c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Location Not Found</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_a08c1bff4f331200503d33718110c7d4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Tax Survey</name><order>100</order><roles/><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:16:57</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>a08c1bff4f331200503d33718110c7d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tax Survey</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_a08c1bff4f331200503d33718110c7d4</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:16:57</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>495c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>Tax Survey</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>db_image_117d1c804f802200503d33718110c7a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category>cms</category><format>png</format><height>40</height><image/><name>blue_marker.png</name><size_bytes>4237</size_bytes><sys_class_name>db_image</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 12:00:31</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>117d1c804f802200503d33718110c7a2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>blue_marker.png</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>db_image_117d1c804f802200503d33718110c7a2</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 12:00:41</sys_updated_on><thumbnail/><width>48</width></db_image><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><compressed>true</compressed><content_type>image/png</content_type><file_name>image</file_name><image_height/><image_width/><size_bytes>4237</size_bytes><size_compressed>4260</size_compressed><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 12:00:41</sys_created_on><sys_id>7b8d18804f802200503d33718110c75c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 12:00:41</sys_updated_on><table_name>ZZ_YYdb_image</table_name><table_sys_id>117d1c804f802200503d33718110c7a2</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="image" sys_id="7b8d18804f802200503d33718110c75c">7b8d18804f802200503d33718110c75c</sys_attachment><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 12:00:41</sys_created_on><sys_id>bb8d18804f802200503d33718110c75c</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>AY0Qcu+JUE5HDQoaCgAAAA1JSERSAAAAMAAAACgIBgAAALiHeXEAAAAEZ0FNQQAA2Ov1HBSqAAAAIGNIUk0AAIcIAACMGwAA7G8AAIaRAACIrgAA0ZUAAEExAAAnpeap+CMAAA8LaUNDUFBob3Rvc2hvcCBJQ0MgcHJvZmlsZQAAWMOtVwk0VV/b33d0zdeQMVzKkHnIlHnOPEsp8xiu6xpCSCjKXGZCSIb6i4gGUqbMSokSMkWUKSLTey71/69vvd+3vvWu9e619jm//ezn+T377Ofs85wHAOysA4HgBQcAeOP9iWY66jjr02dwZIMABegBLRAAsg5OfgQ1ExMD8L83GADrg6QrAAMiJC7wnzUaIuQQohGGMKPbAVYlYccDbEHCF/wJ/hB2J2EndwdnCIdCWJhoYaYB4VISj9sBridhxwP8ioQDndxItkMAoOnxzh54AMgWIKzs7OLnBE2T/Do7+zl5QzgZ0tv19vaB+LEQBgJOBCJkiyVxipD25WDJZyBeqQqIJ+kfWSDEVRsLAJ/vPzJeSIdpFoA7vP/IVs329wrG1OfnKiV5sINU6gCgRvf2VvkgzhsA7KTs7W0V7u3tFAGAGAGgycspgBj4Z79hPQD8f+ODZ/7dEJBDKMAwG/gqMgi1SOaBmaRwoZygPkUzgDWj62TQYnzOdIK5llWIreAwK0cyFwYXxr14xOnoWz5t/upjOMEEoXURe9FWcWGJRMnF40bSZbJwORv5BwpIRUulYuUlVQW1KPV2TSotI+0EnS5dtJ6afrDBA8NpY1YTA9MQs3LzIUuklfgpG+vI02Vn+m3Wz7HbKtk52F92uO3Y5DTqvOXK4iblbuThfv6SZ7rXfe+X+Pc+84QdIq0fl79YgHKg/gXrIOdgfEjQxYjQ2LCk8NRLWRG5l/MiC6JuR9++UnA1LyYnNvNa6vWkuGvxUQmhiX5JnsmOKdY3jG5qpMqlCafjMhgzyTI3s75mj+T05Dbeup93Kz+uIOS2W6FlkXqx6B22EnTJ8t2Ppa1lleWZFRH33O+b/CVbyfEA8WC2qqe6+mF6TXDt2Ucqddz18Pqpxy1Pip9GP3NqUGvkatx5Ptz06EXKS89mrRaulp+tfW0l7aGvzDr4On519nTldeN7lHupej/0lfT7vlZ4g3zTM3DzrfU7jnfjg4XvHYd4hj4P530485HpY//ItU9qnzZHK8ecx1nHez5HTEhOTE2mTWlNrU/fmbH4gvzycNZxjm6u6SthHjffv3D5m+S3qe+ZiwZLsKW6ZfwK/8rn1dwfp9eY1wbXM36e2eDYmNgs/UXYktuGb3ftpO867Int7f2Ovw1qiMwK84biJGUj9XGaCiw3XToDPWP0oS1mPMsUmwV7G8cJznu4w9zXeX4ddeXt51cQKBTECHkL94lKiqWIf5fUlso/vi6jK5sjN3dCRiFcsU2ZQsVQNVGtW4NcU0ProvYDnWldFj1d/SCDEsMBox0TflNTsyDzWxYvLb+corAWOW18Bm+TePb+uS7bWXuUA7ejgpOVM94lxjXPrda9y2Ps/KoXmTcrXtBHgaDna0109fPzvxRwPTD1Qm5QcXBFSNXFutCnYc/DX1x6GdF8uTmyOepF9PMrDVcfx9TEVl4rv34nLi8+IyE5MTbpUnJgitcNp5unU43SNNLlMkQyebKYssmzd3KWciduvc1ry68vKL+dUxhfFFrsfedsicFdhVLBMrZyTPl6xdS9N/ef/3WvMvvB1Sq/aruH+jWytTyPqB9t1k3W9z6uf1L4NP5ZQINto85zsSbmpt0XMy97mh+2ZLWGtzm167wS6qDpWO4c6KrpTuvx7zXvk+zH9i+8fvWmaCAcir74IGZw/P2jobhhuw9SH9Efh0bKPgWP6o4xj02PV38On9CdZJwcnbo7TZiRndn90jIbO2fwFfv19fyNBbNvdN96v19f1FrcXapdPr/CudK/GvFD9MeHtah1wfW+n74b9BuVm3qbU79CtrBbhdvHt5t3THfGds/vru2F7McfARdGqCAtUe7ocLJ0TBl5A8Ug5Tw1nIaRlh+rSGdK78gQwBhzKIupgvkJSyfrMNsX9nUOOCcFFxOOi5uXR+iI6FFxXgk+CX5RAcFjfIIcQgzCGOFfIvOiH8XaxaslciWvSHkdN5OWkWGW2ZAdkquXTztBVDBSFFRCKY0q16ukqHqoqauzqa9odGoWaoVom+kInoSf/KBbpXdd38lAwZDR8JtRm3GBSbCpuZmIOdp83OKxZaoV/tRJax7r7dODZx7YXD/rck7Jltl22a7Tvsgh1NHKSdSZzHnMpc410c3VXcmD0WP+/EvPTC+8tyaeFf/dp4WQ6etNVPVj9Jv1fxqQEGh/QTIIGTQYXBoSfFEvlD10IexZeMKlcxGiEbuX+yLzowjRalfor0xerYmJibW+Jnht5/rruOL4oASDRO7E9aTu5MKU4BsmNwVSQepwWnV6fIZrplrW4ayN7Hc5VblJt7zz9PMFCygKvt7uLrxflFRMvGNVcuIuVymqdL5soPxpRfG9xPvBf7lUmj1QrRKr5npIV4Os2aj9/mi67lP9+8cDT/qf9j970zDYOPJ8umn5xV4ztoW3VantdHvQq9yOls7Vbt4e297cvvHXQm/CBt69kxssGKIbjvtIPZIxKjzW8dlnkmvq/Uz2rPNX2QW6b6uLn5Z7VlvXmn82bDZtde6MkOJ/kPtIDS0DQAYWgFNHATAvBCAmG0p1llCugvKoCTUAFvIAfjoLwG3rAczV9U/+gDoKUEJ/BeyAD0gCVWAM7IAviAZZoBK0gVGwAWOAicEMYZ6wONg9WC9sBc4MV4I7w+Phj+DjCCqEPMIdkYF4hfiFFEE6IjORfSgylBoqFFWPWkdLowPQdehfZCpkV8h6MEwYB8x9zBa5HnkO+XcKdYpMiiVKXcpiKhiVPVUTNQ/1VeoFGnOaBloB2jQsEuuP/UJnQ/eaXo++hUGFoYFRibHxkNqhdiYjpvfMjszfWcJYaVgL2KTZutid2XcP53DIcwxzhnLhuNpwPtxs3G08AUf4jgwfTeTV5t3je8ofLCAvsH3shWCskJkwp/A3kUbRFDE3cRUJNokNySGpJ8fzpWNkfGVt5QzlVU5IKQgqHlHiUuZU4VTlURNQF9dQ0DypZa19Xif8ZJpupV6X/pwhhZGosYVJmGmp2aAF2lLeyufUXeuJMzgb+7NF5+bsJO3DHLqcDjsTXNrdcO6hHiOeyl5FeEqfQMIk0cLvVYBK4OMg2eC6iwqhL8MNL41cxkcho/OuKsaMXouOE4sfS7yZbHiD8mZfWmaGW5ZiDlPuz7zRgu7CpuKnJc9KW8vf3puvxFSJPLSuvV7X/ATxTLcxtWm6WbE1o32t07r7Wd+R19cHVgbPDDV9PPrp6tjMhPpUzszynMb8jW9jS8dWCD8erW9uqmxF7bSS3p/f8WcAhwE/kAJqwAQ4AD8QA3JBNegEk2AHxgqThpnD/GA3YbWwIdg2nAeuC/eFZ8Nb4EsIDoQ+4iKiAvEJSYfUQl5EViPnUbwoe9Qt1Ec0G9oGfQv9mYyfDE/2CAMwBpgszCy5PHkc+TiFNEUCxRdKdcp8yl0qO6oX1HzU8dRrNHY0XbTytGVYdmwSHZIulG6d3pf+O4M3wyIjkXH9UBgTmimZ+TBzBYsCSw+rA+tPtkR2Afbmww4cgKOQU4tznusGTgH3hTuNR5Nn/Uj5UXteFt4BvmR+YwGswA==</data><length>3736</length><position>1</position><sys_attachment display_value="image" sys_id="7b8d18804f802200503d33718110c75c">7b8d18804f802200503d33718110c75c</sys_attachment><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 12:00:41</sys_created_on><sys_id>3f8d18804f802200503d33718110c75c</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>wLEsQQchYaFN4Vci2aJ4MU1xDvFNifeSdVLZxy9Ju8mYyirJCctznqBXwCgCxS2lTeUNlV+qu+ooDRpNVi0+bRmdkyfP6hKhr9odg5eGn40RUA40NAswz7fottw6JWJtfzr9TO9Z8nNattF2bQ7kjsZOGc4TrqJuYe6953k8L3j1QdnvKmGaqO1XHoANDLowGWwS0hQqFVZ6iSsiK5I5Kv0K69X8WIFrNXEa8e8SPZORKbdvqqVOpydkymfN5eTessjHFvQXphXblgjd3Sl7W1F5P6nSr+rcQ/1a5Trpx5JPpRpOPNd+caoZ3xrXXtkx3E3Rq9Ef/ab33dH30cNLI+dHVz8nTMnNrM91LjxcfLjSsfZzU3I7cj/+CEAORR8HxIEGsAYEEAdKQTuYg1HDjsPOwWKhmE9DJ14fHgl/Al9DSCGIiBrEBlIZGYMcQOFQBFQzmgVNQHeRCZDFks1jTDGPyXnJUynQFKEUPygJlEtUflSb1FE0WJrbtDK0vVgPOgxdBb0p/S+GEkarQ+SHnjMFMR9nXmGpYQ1iU2HHsL89XMThz6nDxcG1huvnvscTf8T7qCmvHB83PxX/psDXYyOCr4U6hJtFnotCaVq8VaJbclBq4viyDEKWRU5cXu+Em0KMYrlSn/KG6hE1M/UojTrN79rHdFxPluh+1Rc3CDFsMz5k4mbaYM5o4WPZA8Ut6fQPm7NnW20l7PIdaB0jnH64eLiOuVt7vPY08OrA6/i0+WoT2/31AnovmAcNh9hfnA3zDd+KiIlkiCq4Ina1Mdbo2mgcIQGemJYskPLspmnqTPrFTGxWSY5i7us8t/yd2zeK+IuflZjcnSoLrMDcy/rrWGV9lXb1m5qztVN1nvWLT3yfLjfgG2eb7F4MNGu2VLWxt19+NdGp2pXdvdir1pfYP/iGfcDmbea73vfwIYnhcx+iPt4daf80Obo9TveZZ0JiUnFKa1p/xvCL0az+nM5X1Xm5BZFvuO/0i7DF5aVPyx0rD1dv/Yhe81w3+Sm9wbGJ3Jz91b1VuZ2847NrtMdHiv9BvbTfKDR8vHyIOAMNTfDfbd5eAX980EKdysNfd7/+g3qLK1HbDLpDtRIYwjsaGUN3euivhs3FT8v8NxZ29dDWhTCU22DKBH8Tki0LhI1C3C1OkWpBCLued9Az+Y398V5GpLqWCcKRzi6aWr9tMz199Em+qEi1pQve8g9/jV+g+R+dNmcHTX0IH4bwYIi7htFv/RVgAJ0PTeicOAEf4AV1IvAAHdCICH0v8ZB8fH+OJPUD/pAsAARBEi9o7AthD+AMXKCZA/sASO4CXYlAG9IkAjdoJPLbw7/7sQJT+7z/twaJ3cfOI5LoXe0amOkTfMLKXbxCfE58G9I60Nb/26MLtNo/TAfeHf+MexfqFv620PibHfe39tT+Wv/nOkSA6z5L4P7zeYIZCHuT1vK3HTiovff/UaA9zrUloSa+gn97T/xdgvbrWw0fQjDRw83dH6dGIHi54DR8vAkB/i5EYZwu3klUGCcpLi4NAAD/AoooatBrMs/0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA7ElEQVRYR+2YQQ6EIAxF0UvM6eZ0czpPgWMCCTFAS1tpQd5mXA3/8YtGN//HDcwefodFvIHtd4SrPP77CVcysAWgwBBcIbIAN/gdqgjpDEiHv6D+Z3MDT4S/09IGWqBH8BSshNnbKHbDUAK9d78FUEAzPGbtqoCFnYcymD0DWIoClua+lmXeBkYhK2BpfCKlTGuEtFkC2iwBbYYRKL0fZAW4L9o9mXeELLVQyzL3IbbQApQBbEBTArP23CMU0WgBu+Z7vsylPCVBaZr8dfpCUoQ6piyBCFVE4myJCKRAMhKhU8QFevOO54BdnDsB/zBvLyvqGuwAAAAASUVORK5CYIJZvhSUjRAAAA==</data><length>1936</length><position>2</position><sys_attachment display_value="image" sys_id="7b8d18804f802200503d33718110c75c">7b8d18804f802200503d33718110c75c</sys_attachment><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 12:00:41</sys_created_on><sys_id>bf8d18804f802200503d33718110c75c</sys_id></sys_attachment_doc></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>4d5c2c444f802200503d33718110c79e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>blue_marker.png</target_name>
+<type>Images</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_payment_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_payment_status" table="u_tax_survey"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Payment Status</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_payment_status</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>327d8ffb4f331200503d33718110c74b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Payment Status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_payment_status</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>4d5c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Payment Status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_462cc7fb4f331200503d33718110c769</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Tax Survey">ce2cc7fb4f331200503d33718110c768</application><filter/><name>Tax Surveys</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:05:01</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>462cc7fb4f331200503d33718110c769</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tax Surveys</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_462cc7fb4f331200503d33718110c769</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:05:01</sys_updated_on><table>u_tax_survey</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>4d5ce8844f802200503d33718110c7bc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Surveys</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_tax_survey_u_property_type</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_property_type" table="u_tax_survey" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_property_type</element><hint/><inactive>false</inactive><label>Residential</label><language>en</language><name>u_tax_survey</name><sequence>0</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:20:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5a7dd3734f731200503d33718110c72f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:20:41</sys_updated_on><value>Residential</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_property_type</element><hint/><inactive>false</inactive><label>Commercial</label><language>en</language><name>u_tax_survey</name><sequence>1</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:20:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>967dd3734f731200503d33718110c730</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:20:41</sys_updated_on><value>Commercial</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_property_type</element><hint/><inactive>false</inactive><label>Land</label><language>en</language><name>u_tax_survey</name><sequence>2</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:20:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>527dd3734f731200503d33718110c731</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:20:41</sys_updated_on><value>Land</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_property_type</element><name>u_tax_survey</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:20:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d27dd3734f731200503d33718110c730</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_property_type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_tax_survey_u_property_type</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:20:41</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>815c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Property Type</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0bf1f7f74f731200503d33718110c758</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow read for records in u_tax_survey, always.</description><name>u_tax_survey</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 08:50:18</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>0bf1f7f74f731200503d33718110c758</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_tax_survey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_0bf1f7f74f731200503d33718110c758</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 08:50:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>815c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>u_tax_survey</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>wf_workflow_212f4bfb4f331200503d33718110c756</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;&lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;activity_stages&gt;{"subflows":[],"stages":{},"activities":{},"ends":["e52f4bfb4f331200503d33718110c756"]}&lt;/activity_stages&gt;&lt;after_business_rules&gt;false&lt;/after_business_rules&gt;&lt;checked_out/&gt;&lt;checked_out_by/&gt;&lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;&lt;condition table="u_tax_survey"&gt;active=true^EQ&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;condition_type&gt;run_match&lt;/condition_type&gt;&lt;description/&gt;&lt;expected_sequences&gt;e12f4bfb4f331200503d33718110c756,f34f473f4f331200503d33718110c7eb,83bf073f4f331200503d33718110c731,1910d73f4f331200503d33718110c77e,dad19f3f4f331200503d33718110c732,8225137f4f331200503d33718110c769,e52f4bfb4f331200503d33718110c756&lt;/expected_sequences&gt;&lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;&lt;expected_time_type/&gt;&lt;full_sequences&gt;e12f4bfb4f331200503d33718110c756,f34f473f4f331200503d33718110c7eb,83bf073f4f331200503d33718110c731,2b81d73f4f331200503d33718110c7c9,b0115b3f4f331200503d33718110c74d,e52f4bfb4f331200503d33718110c756|e12f4bfb4f331200503d33718110c756,f34f473f4f331200503d33718110c7eb,83bf073f4f331200503d33718110c731,1910d73f4f331200503d33718110c77e,dad19f3f4f331200503d33718110c732,8225137f4f331200503d33718110c769,e52f4bfb4f331200503d33718110c756&lt;/full_sequences&gt;&lt;journal/&gt;&lt;max_activity_count&gt;100&lt;/max_activity_count&gt;&lt;name&gt;Task Survey&lt;/name&gt;&lt;not_cacheable&gt;false&lt;/not_cacheable&gt;&lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;&lt;order&gt;100&lt;/order&gt;&lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;&lt;published&gt;true&lt;/published&gt;&lt;relative_duration/&gt;&lt;requires_ert&gt;true&lt;/requires_ert&gt;&lt;run_multiple&gt;false&lt;/run_multiple&gt;&lt;schedule/&gt;&lt;stage_field/&gt;&lt;stage_order&gt;computed&lt;/stage_order&gt;&lt;start display_value="Begin"&gt;e12f4bfb4f331200503d33718110c756&lt;/start&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:18:06&lt;/sys_created_on&gt;&lt;sys_id&gt;aacec33f4f331200503d33718110c76e&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:46:28&lt;/sys_updated_on&gt;&lt;table&gt;u_tax_survey&lt;/table&gt;&lt;timezone/&gt;&lt;validated&gt;false&lt;/validated&gt;&lt;workflow display_value="Task Survey"&gt;212f4bfb4f331200503d33718110c756&lt;/workflow&gt;&lt;/wf_workflow_version&gt;&lt;wf_workflow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;description/&gt;&lt;name&gt;Task Survey&lt;/name&gt;&lt;preview/&gt;&lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:18:06&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;212f4bfb4f331200503d33718110c756&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Task Survey&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_212f4bfb4f331200503d33718110c756&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:18:06&lt;/sys_updated_on&gt;&lt;table&gt;u_tax_survey&lt;/table&gt;&lt;template&gt;false&lt;/template&gt;&lt;vars/&gt;&lt;/wf_workflow&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Begin&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:18:06&lt;/sys_created_on&gt;&lt;sys_id&gt;e12f4bfb4f331200503d33718110c756&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:18:06&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;/wf_activity&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Begin"&gt;e12f4bfb4f331200503d33718110c756&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:18:06&lt;/sys_created_on&gt;&lt;sys_id&gt;652f4bfb4f331200503d33718110c756&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:18:06&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;End&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:18:06&lt;/sys_created_on&gt;&lt;sys_id&gt;e52f4bfb4f331200503d33718110c756&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:18:16&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;931&lt;/x&gt;&lt;y&gt;485&lt;/y&gt;&lt;/wf_activity&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;3&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Set Approval And State&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:20:08&lt;/sys_created_on&gt;&lt;sys_id&gt;f34f473f4f331200503d33718110c7eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:20:26&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;181&lt;/x&gt;&lt;y&gt;53&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;f34f473f4f331200503d33718110c7eb&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:20:08&lt;/sys_created_on&gt;&lt;sys_id&gt;d79f0fbb4f331200503d33718110c7fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:20:08&lt;/sys_updated_on&gt;&lt;value&gt;state=1^approval=approved^EQ&lt;/value&gt;&lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Set Approval And State"&gt;f34f473f4f331200503d33718110c7eb&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:20:08&lt;/sys_created_on&gt;&lt;sys_id&gt;db9f0fbb4f331200503d33718110c7fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:20:08&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Approval - Group"&gt;354e911f0a0a029a00e6a0e6ad74206f&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;4&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Set Assignment Group Approval&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;83bf073f4f331200503d33718110c731&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:59&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;427&lt;/x&gt;&lt;y&gt;77&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;66ff0b3f4f331200503d33718110c769&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;1bd4c8c00a0a0b26635e191420fd194c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;26ff0b3f4f331200503d33718110c76a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;any_each&lt;/value&gt;&lt;variable display_value=""&gt;0698d53c0a0a0b2627f7cf654de211b6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;22ff4bfb4f331200503d33718110c758&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a89323c0a80066046c6c1fd0df6475&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;115&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;aaff0b3f4f331200503d33718110c76a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a29434c0a80066575097078b386f8d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;eeff4bfb4f331200503d33718110c758&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ac8459c0a8006628d8903b8b2e579b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;2eff4bfb4f331200503d33718110c758&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;${assignment_group}&lt;/value&gt;&lt;variable display_value=""&gt;c35dc8950a0a0ba96248a70936f964a8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;350&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;eeff0b3f4f331200503d33718110c768&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;reject&lt;/value&gt;&lt;variable display_value=""&gt;4fc0fabe0a6a803f7f0af58179445dbb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;62ff0b3f4f331200503d33718110c76a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8aaecf5c0a8006617527ddc62f2d668&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;aeff0b3f4f331200503d33718110c769&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;08fcd0830a0a0b2600079f56b1adb9ae&lt;/value&gt;&lt;variable display_value=""&gt;a8abc43ac0a800664b9b89a9f3f2c7a1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;1100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;a2ff0b3f4f331200503d33718110c769&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a5b2aac0a80066020adf74bd35c283&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;1150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;eaff0b3f4f331200503d33718110c769&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8a63d44c0a8006617a1a568e6ee0d9e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;2aff0b3f4f331200503d33718110c769&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value=""&gt;a8a7bc7dc0a800666777a9bd9b84fef8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;6aff4bfb4f331200503d33718110c758&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ad144ec0a8006638755cb3662df229&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;6eff0b3f4f331200503d33718110c76a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;a8ae0641c0a800664ae7b95978e88d56&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;1360&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;2eff0b3f4f331200503d33718110c768&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value=""&gt;a8a16056c0a800660449c1bbc94d797f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;1370&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;a6ff4bfb4f331200503d33718110c758&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&amp;#13;
+//&amp;#13;
+// This script is responsible for setting the approval state for each group that is part of this approval activity before&amp;#13;
+// returning the overall approval state for all of the group(s).&amp;#13;
+//&amp;#13;
+// When called, the following variables are available to the script:&amp;#13;
+//&amp;#13;
+//    Overall for all of the groups that are part of this approval activity:&amp;#13;
+//        counts.total = total number of groups that are part of this approval&amp;#13;
+//        counts.approved = # of groups that approved so far&amp;#13;
+//        counts.rejected = # of groups that rejected so far&amp;#13;
+//        counts.requested = # of groups that are pending approval&amp;#13;
+//        counts.not_requested = # of groups that are not pending approval&amp;#13;
+//        counts.not_required = # of groups that approval is not required&amp;#13;
+//&amp;#13;
+//    And for each group:&amp;#13;
+//        groups[group_id].total = total number of users that are part of this group's approval&amp;#13;
+//        groups[group_id].approved = # of users that approved so far&amp;#13;
+//        groups[group_id].rejected = # of users that rejected so far&amp;#13;
+//        groups[group_id].requested = # of users that are pending approval&amp;#13;
+//        groups[group_id].not_requested = # of users that are not pending approval&amp;#13;
+//        groups[group_id].not_required = # of users that approval is not required&amp;#13;
+//&amp;#13;
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state&amp;#13;
+//&amp;#13;
+//        Note: Iterate the groups using:&amp;#13;
+//            for (var id in groups) {&amp;#13;
+//                 var group = groups[id];&amp;#13;
+//                 ...  group.total ...&amp;#13;
+//            }&amp;#13;
+&lt;/value&gt;&lt;variable display_value=""&gt;069e81530a0a0b264289c1e23fe52558&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;e2ff4bfb4f331200503d33718110c758&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value=""&gt;069bd78c0a0a0b267fa35f3d77e02a10&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;83bf073f4f331200503d33718110c731&lt;/document_key&gt;&lt;order&gt;2050&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;e6ff0b3f4f331200503d33718110c76a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//       var answer = [];&amp;#13;
+//       answer.push('id1');&amp;#13;
+//       answer.push('id2');&amp;#13;
+&lt;/value&gt;&lt;variable display_value=""&gt;069c53740a0a0b260e35ee0ead2dbbcc&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Set Assignment Group Approval"&gt;83bf073f4f331200503d33718110c731&lt;/activity&gt;&lt;condition&gt;activity.result == 'approved' || activity.result == 'skipped'&lt;/condition&gt;&lt;condition_default display_value="Approved"&gt;586cdc4c0a0a0b5c00888cdfcb07778b&lt;/condition_default&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Approved&lt;/name&gt;&lt;order&gt;1&lt;/order&gt;&lt;short_description&gt;Approval request was approved&lt;/short_description&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;62ff0b3f4f331200503d33718110c76b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Set Assignment Group Approval"&gt;83bf073f4f331200503d33718110c731&lt;/activity&gt;&lt;condition&gt;activity.result == 'rejected'&lt;/condition&gt;&lt;condition_default display_value="Rejected"&gt;586d9d960a0a0b5c00509314d15d50d8&lt;/condition_default&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;false&lt;/is_positive&gt;&lt;name&gt;Rejected&lt;/name&gt;&lt;order&gt;2&lt;/order&gt;&lt;short_description&gt;Approval request was rejected&lt;/short_description&gt;&lt;skip_during_generate&gt;true&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:43&lt;/sys_created_on&gt;&lt;sys_id&gt;e2ff0b3f4f331200503d33718110c76b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:43&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;9&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Set Closed&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:45:34&lt;/sys_created_on&gt;&lt;sys_id&gt;8225137f4f331200503d33718110c769&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:46:19&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;835&lt;/x&gt;&lt;y&gt;343&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;8225137f4f331200503d33718110c769&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:45:34&lt;/sys_created_on&gt;&lt;sys_id&gt;bb659b7f4f331200503d33718110c7bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:45:34&lt;/sys_updated_on&gt;&lt;value&gt;u_payment_status=Paid^state=3^u_state=Closed Complete^EQ&lt;/value&gt;&lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Set Closed"&gt;8225137f4f331200503d33718110c769&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:45:34&lt;/sys_created_on&gt;&lt;sys_id&gt;bf659b7f4f331200503d33718110c7bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:45:34&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;5&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Set State and Approval&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:26:04&lt;/sys_created_on&gt;&lt;sys_id&gt;1910d73f4f331200503d33718110c77e&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:32:27&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;660&lt;/x&gt;&lt;y&gt;89&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;1910d73f4f331200503d33718110c77e&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:26:04&lt;/sys_created_on&gt;&lt;sys_id&gt;96f0d73f4f331200503d33718110c782&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:32:27&lt;/sys_updated_on&gt;&lt;value&gt;approval=approved^u_payment_status=Pending^u_state=Awaiting For Payment^EQ&lt;/value&gt;&lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Set State and Approval"&gt;1910d73f4f331200503d33718110c77e&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:26:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9af0d73f4f331200503d33718110c782&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:26:04&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;6&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Set State and Approval&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:26:30&lt;/sys_created_on&gt;&lt;sys_id&gt;b0115b3f4f331200503d33718110c74d&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:29:37&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;604&lt;/x&gt;&lt;y&gt;417&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;b0115b3f4f331200503d33718110c74d&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:26:30&lt;/sys_created_on&gt;&lt;sys_id&gt;34115b3f4f331200503d33718110c74d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:28:26&lt;/sys_updated_on&gt;&lt;value&gt;u_state=Closed Incomplete^state=4^EQ&lt;/value&gt;&lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Set State and Approval"&gt;b0115b3f4f331200503d33718110c74d&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:26:30&lt;/sys_created_on&gt;&lt;sys_id&gt;38115b3f4f331200503d33718110c74d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:26:30&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;7&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;State and Approval&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:29:20&lt;/sys_created_on&gt;&lt;sys_id&gt;2b81d73f4f331200503d33718110c7c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:29:32&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;497&lt;/x&gt;&lt;y&gt;277&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;2b81d73f4f331200503d33718110c7c9&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:29:20&lt;/sys_created_on&gt;&lt;sys_id&gt;46b11f3f4f331200503d33718110c7d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:29:20&lt;/sys_updated_on&gt;&lt;value&gt;state=2^approval=rejected^EQ&lt;/value&gt;&lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="State and Approval"&gt;2b81d73f4f331200503d33718110c7c9&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:29:20&lt;/sys_created_on&gt;&lt;sys_id&gt;4ab11f3f4f331200503d33718110c7d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:29:20&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Wait for condition"&gt;d93a02ae0a0a0aa30077abad3fdac035&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;8&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Wait To Receive Payment&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;dad19f3f4f331200503d33718110c732&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:31:54&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;x&gt;813&lt;/x&gt;&lt;y&gt;204&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;dad19f3f4f331200503d33718110c732&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;7722d73f4f331200503d33718110c7ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:31:54&lt;/sys_updated_on&gt;&lt;value&gt;u_payment_status=Paid^EQ&lt;/value&gt;&lt;variable display_value=""&gt;c35dc4cd0a0a0ba96248a70990c1ac54&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;dad19f3f4f331200503d33718110c732&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;b322d73f4f331200503d33718110c7ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:31:22&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&amp;#13;
+answer = true;&amp;#13;
+&lt;/value&gt;&lt;variable display_value=""&gt;c35debce0a0a0ba96248a709440cf31a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Wait To Receive Payment"&gt;dad19f3f4f331200503d33718110c732&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;7b22d73f4f331200503d33718110c7ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:31:22&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Rejected"&gt;e2ff0b3f4f331200503d33718110c76b&lt;/condition&gt;&lt;from display_value="Set Assignment Group Approval"&gt;83bf073f4f331200503d33718110c731&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:29:32&lt;/sys_created_on&gt;&lt;sys_id&gt;18c1573f4f331200503d33718110c7c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:29:32&lt;/sys_updated_on&gt;&lt;to display_value="State and Approval"&gt;2b81d73f4f331200503d33718110c7c9&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;652f4bfb4f331200503d33718110c756&lt;/condition&gt;&lt;from display_value="Begin"&gt;e12f4bfb4f331200503d33718110c756&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:20:24&lt;/sys_created_on&gt;&lt;sys_id&gt;32af8ffb4f331200503d33718110c7b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:20:24&lt;/sys_updated_on&gt;&lt;to display_value="Set Approval And State"&gt;f34f473f4f331200503d33718110c7eb&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Approved"&gt;62ff0b3f4f331200503d33718110c76b&lt;/condition&gt;&lt;from display_value="Set Assignment Group Approval"&gt;83bf073f4f331200503d33718110c731&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:26:15&lt;/sys_created_on&gt;&lt;sys_id&gt;90011bfb4f331200503d33718110c72c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:26:15&lt;/sys_updated_on&gt;&lt;to display_value="Set State and Approval"&gt;1910d73f4f331200503d33718110c77e&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;4ab11f3f4f331200503d33718110c7d6&lt;/condition&gt;&lt;from display_value="State and Approval"&gt;2b81d73f4f331200503d33718110c7c9&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:29:43&lt;/sys_created_on&gt;&lt;sys_id&gt;93c1d73f4f331200503d33718110c785&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:29:43&lt;/sys_updated_on&gt;&lt;to display_value="Set State and Approval"&gt;b0115b3f4f331200503d33718110c74d&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;7b22d73f4f331200503d33718110c7ce&lt;/condition&gt;&lt;from display_value="Wait To Receive Payment"&gt;dad19f3f4f331200503d33718110c732&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:46:18&lt;/sys_created_on&gt;&lt;sys_id&gt;b4959b7f4f331200503d33718110c77b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:46:18&lt;/sys_updated_on&gt;&lt;to display_value="Set Closed"&gt;8225137f4f331200503d33718110c769&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;9af0d73f4f331200503d33718110c782&lt;/condition&gt;&lt;from display_value="Set State and Approval"&gt;1910d73f4f331200503d33718110c77e&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:44:38&lt;/sys_created_on&gt;&lt;sys_id&gt;bc259b7f4f331200503d33718110c7a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:44:38&lt;/sys_updated_on&gt;&lt;to display_value="Wait To Receive Payment"&gt;dad19f3f4f331200503d33718110c732&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;38115b3f4f331200503d33718110c74d&lt;/condition&gt;&lt;from display_value="Set State and Approval"&gt;b0115b3f4f331200503d33718110c74d&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:29:47&lt;/sys_created_on&gt;&lt;sys_id&gt;c4d19ffb4f331200503d33718110c7bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:29:47&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;e52f4bfb4f331200503d33718110c756&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;bf659b7f4f331200503d33718110c7bf&lt;/condition&gt;&lt;from display_value="Set Closed"&gt;8225137f4f331200503d33718110c769&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:46:22&lt;/sys_created_on&gt;&lt;sys_id&gt;ca955b7f4f331200503d33718110c7ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:46:22&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;e52f4bfb4f331200503d33718110c756&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;db9f0fbb4f331200503d33718110c7fb&lt;/condition&gt;&lt;from display_value="Set Approval And State"&gt;f34f473f4f331200503d33718110c7eb&lt;/from&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:21:57&lt;/sys_created_on&gt;&lt;sys_id&gt;dd00d73f4f331200503d33718110c7c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:21:57&lt;/sys_updated_on&gt;&lt;to display_value="Set Assignment Group Approval"&gt;83bf073f4f331200503d33718110c731&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;&lt;estimated_run_time/&gt;&lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;&lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 06:18:06&lt;/sys_created_on&gt;&lt;sys_id&gt;6d2f4bfb4f331200503d33718110c755&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 06:18:06&lt;/sys_updated_on&gt;&lt;workflow_version display_value="Task Survey"&gt;aacec33f4f331200503d33718110c76e&lt;/workflow_version&gt;&lt;/wf_estimated_runtime_config&gt;&lt;wf_workflow_version action="update_multiple" query="workflow=212f4bfb4f331200503d33718110c756^sys_id!=aacec33f4f331200503d33718110c76e"&gt;&lt;published&gt;false&lt;/published&gt;&lt;/wf_workflow_version&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>815ce8844f802200503d33718110c7bd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Task Survey</target_name>
+<type>Workflow</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_address</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_address" table="u_tax_survey"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Address</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_address</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>4000</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>be7d8ffb4f331200503d33718110c746</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Address</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_address</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>855c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Address</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_7a05f7f74f731200503d33718110c74a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow write for all fields in u_tax_survey, always.</description><name>u_tax_survey.*</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 09:03:39</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>7a05f7f74f731200503d33718110c74a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_tax_survey.*</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_7a05f7f74f731200503d33718110c74a</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 09:03:39</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>855c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey.*</table>
+<target_name>u_tax_survey.*</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>cmn_map_page_0cbe27b74f731200503d33718110c76c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cmn_map_page"&gt;&lt;cmn_map_page action="INSERT_OR_UPDATE"&gt;&lt;center_address&gt;Chennai, India&lt;/center_address&gt;&lt;center_latitude/&gt;&lt;center_longitude/&gt;&lt;controls_size&gt;large&lt;/controls_size&gt;&lt;initial_zoom&gt;2&lt;/initial_zoom&gt;&lt;name&gt;Property Survey(city)&lt;/name&gt;&lt;overview&gt;true&lt;/overview&gt;&lt;refresh_on_zoom&gt;false&lt;/refresh_on_zoom&gt;&lt;script&gt;&lt;![CDATA[var uri = gs.getProperty("glide.servlet.uri");
+//create an aggregate query on the incident table
+var count = new GlideAggregate('u_tax_survey');
+//set condition for active incidents
+count.addQuery('active', 'true');
+//set aggregate field to location to get count by location
+count.addAggregate('COUNT', 'location');
+//execute the query
+count.query();
+ 
+//loop through the results
+while (count.next()) {
+ 
+ //get the current record's location
+ var loc = count.location.parent;
+ //get the count of incidents for this location
+ var locCount = count.getAggregate('COUNT', 'location');
+
+
+ //only display location is there are active incidents
+ if (locCount &gt; 0) {
+ //create new new map item for this location
+ var item = map.addItem(count);
+ //set lat/long from the location record
+ item.latitude = loc.latitude;
+ item.longitude = loc.longitude; 
+ 
+ //create a marker label with the count
+ item.marker_label = locCount;
+ //define label offset for proper position
+ item.label_offset_left = -4;
+ item.label_offset_top = -20;
+ 
+ //option to define table and record for label hyperlink
+ //setting table and sys_id will override the use of html parameter
+ //item.table = 'cmn_location';
+ //item.sys_id = loc;
+ 
+ //build the link to the list of incidents for the location
+ var link = 'href=' + uri + 'u_tax_survey_list.do?sysparm_query=active%3Dtrue^location.parent%3D' + loc;
+ //build the html value to be displayed when you click the map icon
+ item.html='&lt;a ' + link + '&gt;' + loc.getDisplayValue() + ' (' + locCount + ')&lt;/a&gt;';
+ 
+ //link to the icon image
+ item.icon = "images/red_marker.png";
+ //set the size of the icon based on the number of active incidents
+ item.icon_width = 24;
+ item.icon_height = 24;
+ 
+ }
+}]]&gt;&lt;/script&gt;&lt;show_device_location&gt;true&lt;/show_device_location&gt;&lt;suffix/&gt;&lt;sys_class_name&gt;cmn_map_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 08:46:50&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;0cbe27b74f731200503d33718110c76c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Property Survey(city)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;cmn_map_page_0cbe27b74f731200503d33718110c76c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 10:18:27&lt;/sys_updated_on&gt;&lt;type&gt;terrain&lt;/type&gt;&lt;type_selection&gt;buttons&lt;/type_selection&gt;&lt;/cmn_map_page&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>895c2c444f802200503d33718110c79e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>Property Survey(city)</target_name>
+<type>Map Page</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_longitude</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_longitude" table="u_tax_survey"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Longitude</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_longitude</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">float</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3a7d8ffb4f331200503d33718110c745</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Longitude</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_longitude</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>895c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Longitude</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_ce2cc7fb4f331200503d33718110c768</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Tax Survey</name><order/><roles/><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:05:01</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>ce2cc7fb4f331200503d33718110c768</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tax Survey</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_ce2cc7fb4f331200503d33718110c768</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:05:01</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>895c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>Tax Survey</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_7d2cc7fb4f331200503d33718110c767</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Tax Survey</name><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:05:01</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7d2cc7fb4f331200503d33718110c767</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Property Survey</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_7d2cc7fb4f331200503d33718110c767</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 08:21:37</sys_updated_on><title>Property Survey</title><view_name/></sys_app_application></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>8d5c2c444f802200503d33718110c79e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>Property Survey</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_property_type</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_property_type" table="u_tax_survey"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Property Type</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_property_type</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>5a3d57734f731200503d33718110c778</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Property Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_property_type</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:35</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>8d5c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Property Type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_6609bb7b4f731200503d33718110c764</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="u_tax_survey"&gt;u_location_not_found=true^EQ&lt;item endquery="false" field="u_location_not_found" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Location&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 09:21:32&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;6609bb7b4f731200503d33718110c764&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Location&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_6609bb7b4f731200503d33718110c764&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 09:21:32&lt;/sys_updated_on&gt;&lt;table&gt;u_tax_survey&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>8d5ce8844f802200503d33718110c7bc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Location</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_tax_survey_u_state</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_state" table="u_tax_survey" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>New</label><language>en</language><name>u_tax_survey</name><sequence>0</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:24:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>03809ffb4f331200503d33718110c7b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:24:13</sys_updated_on><value>New</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Approved</label><language>en</language><name>u_tax_survey</name><sequence>1</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:24:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4f809ffb4f331200503d33718110c7b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:24:13</sys_updated_on><value>Approved</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Rejected</label><language>en</language><name>u_tax_survey</name><sequence>2</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:24:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0b809ffb4f331200503d33718110c7b7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:24:13</sys_updated_on><value>Rejected</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Awaiting For Payment</label><language>en</language><name>u_tax_survey</name><sequence>3</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:24:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c3809ffb4f331200503d33718110c7b8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:24:13</sys_updated_on><value>Awaiting For Payment</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Closed Complete</label><language>en</language><name>u_tax_survey</name><sequence>4</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:24:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8f809ffb4f331200503d33718110c7b8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:24:13</sys_updated_on><value>Closed Complete</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Closed Incomplete</label><language>en</language><name>u_tax_survey</name><sequence>5</sequence><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:24:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4b809ffb4f331200503d33718110c7b9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:24:13</sys_updated_on><value>Closed Incomplete</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_state</element><name>u_tax_survey</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:24:13</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8b809ffb4f331200503d33718110c7b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_state</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_tax_survey_u_state</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:24:13</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>c15c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.State</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2c813bf74f731200503d33718110c7e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>u_tax_survey</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 08:48:50</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>2c813bf74f731200503d33718110c7e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_tax_survey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_2c813bf74f731200503d33718110c7e9</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 08:48:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>c15c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>u_tax_survey</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_end_date</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_end_date" table="u_tax_survey"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>End Date</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_end_date</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">glide_date</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>367d8ffb4f331200503d33718110c748</sys_id><sys_mod_count>0</sys_mod_count><sys_name>End Date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_end_date</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>c55c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.End Date</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_97d8bb3b4f731200503d33718110c73e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;false&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow write for u_location_not_found in u_tax_survey, if the ACL script returns true.&lt;/description&gt;&lt;name&gt;u_tax_survey.u_location_not_found&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var answer;
+
+if(gs.getUser().isMemberOf('Surveyors') || gs.hasRole('admin'))
+	{
+		answer =  true;
+	}
+else
+	{
+		answer = false;
+	}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 09:20:21&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;97d8bb3b4f731200503d33718110c73e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_tax_survey.u_location_not_found&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_97d8bb3b4f731200503d33718110c73e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 09:23:15&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>c55c2c444f802200503d33718110c7a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey.u_location_not_found</table>
+<target_name>u_tax_survey.u_location_not_found</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>cmn_map_page_506edb734f731200503d33718110c749</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cmn_map_page"&gt;&lt;cmn_map_page action="INSERT_OR_UPDATE"&gt;&lt;center_address&gt;Chennai, India&lt;/center_address&gt;&lt;center_latitude/&gt;&lt;center_longitude/&gt;&lt;controls_size&gt;large&lt;/controls_size&gt;&lt;initial_zoom&gt;2&lt;/initial_zoom&gt;&lt;name&gt;Property Surveys&lt;/name&gt;&lt;overview&gt;true&lt;/overview&gt;&lt;refresh_on_zoom&gt;false&lt;/refresh_on_zoom&gt;&lt;script&gt;&lt;![CDATA[//setup new GlideRecord query on the Tax Survey table
+var gr = new GlideRecord("u_tax_survey");
+//add condition for type residential
+gr.addQuery('u_property_type', 'Residential');
+//add condition for active incidents
+gr.addActiveQuery();
+//execute the query
+gr.query();
+ 
+//loop through the list of incidents returned by the query
+while (gr.next()) {
+ 
+ //create a new map item to display - linked to the current incident record
+ var item = map.addItem(gr);
+ //add the latitude value from the incident's location
+ item.latitude = gr.location.latitude;
+ //add the longitude value from the incident's location
+ item.longitude = gr.location.longitude;
+ //add the incident number to the dialog title
+ item.dialog_title = gr.getDisplayValue();
+ //link to the icon image
+ item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon31.png";
+ //set the icon size
+ item.icon_width = "16";
+ item.icon_height = "16";
+}
+
+var gr2 = new GlideRecord("u_tax_survey");
+//add condition for type residential
+gr2.addQuery('u_property_type', 'Commercial');
+//add condition for active incidents
+gr2.addActiveQuery();
+//execute the query
+gr2.query();
+ 
+//loop through the list of incidents returned by the query
+while (gr2.next()) {
+ 
+ //create a new map item to display - linked to the current incident record
+ var item = map.addItem(gr2);
+ //add the latitude value from the incident's location
+ item.latitude = gr2.location.latitude;
+ //add the longitude value from the incident's location
+ item.longitude = gr2.location.longitude;
+ //add the incident number to the dialog title
+ item.dialog_title = gr2.getDisplayValue();
+ //link to the icon image
+ item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon21.png";
+ //set the icon size
+ item.icon_width = "16";
+ item.icon_height = "16";
+}]]&gt;&lt;/script&gt;&lt;show_device_location&gt;true&lt;/show_device_location&gt;&lt;suffix/&gt;&lt;sys_class_name&gt;cmn_map_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Manoj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-11 07:31:43&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;506edb734f731200503d33718110c749&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Property Surveys&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;cmn_map_page_506edb734f731200503d33718110c749&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Manoj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-11 08:25:05&lt;/sys_updated_on&gt;&lt;type&gt;terrain&lt;/type&gt;&lt;type_selection&gt;buttons&lt;/type_selection&gt;&lt;/cmn_map_page&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>c95c2c444f802200503d33718110c79e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table/>
+<target_name>Property Surveys</target_name>
+<type>Map Page</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_owner_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_owner_name" table="u_tax_survey"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Owner Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_owner_name</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ba7d8ffb4f331200503d33718110c749</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Owner Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_owner_name</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>c95c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Owner Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_462cc7fb4f331200503d33718110c768</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Property Survey">7d2cc7fb4f331200503d33718110c767</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Tax Surveys</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_tax_survey</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:05:01</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>462cc7fb4f331200503d33718110c768</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Property Surveys</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_462cc7fb4f331200503d33718110c768</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 10:26:13</sys_updated_on><timeline_page/><title>Property Surveys</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>cd5c2c444f802200503d33718110c79e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Property Surveys</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_tax_survey_u_start_date</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_start_date" table="u_tax_survey"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Start Date</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_start_date</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="">glide_date</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_tax_survey</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:10:48</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b67d8ffb4f331200503d33718110c74c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Start Date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_tax_survey_u_start_date</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:10:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>cd5c2c444f802200503d33718110c79f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey.Start Date</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_6d4c83fb4f331200503d33718110c737</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="6d4c83fb4f331200503d33718110c737" sys_domain="global" table="u_tax_survey" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>ea3d57734f731200503d33718110c77a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>location</element><position>1</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>6e3d57734f731200503d33718110c77a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_location_not_found</element><position>2</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>ee3d57734f731200503d33718110c77a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_latitude</element><position>3</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>623d57734f731200503d33718110c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_longitude</element><position>4</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>e23d57734f731200503d33718110c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_owner_name</element><position>5</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>663d57734f731200503d33718110c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_address</element><position>6</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>e63d57734f731200503d33718110c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_property_type</element><position>7</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>6a3d57734f731200503d33718110c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>8</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>ea3d57734f731200503d33718110c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>9</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>6e3d57734f731200503d33718110c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>approval</element><position>10</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>ee3d57734f731200503d33718110c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>11</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>623d57734f731200503d33718110c77c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>12</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>e23d57734f731200503d33718110c77c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_start_date</element><position>13</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>663d57734f731200503d33718110c77c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_end_date</element><position>14</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>e63d57734f731200503d33718110c77c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_payment_amout</element><position>15</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>6a3d57734f731200503d33718110c77c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_payment_status</element><position>16</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>ea3d57734f731200503d33718110c77c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>17</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>6e3d57734f731200503d33718110c77c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>18</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>ee3d57734f731200503d33718110c77c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>19</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>623d57734f731200503d33718110c77d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>20</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>e23d57734f731200503d33718110c77d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_state</element><position>21</position><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 07:19:36</sys_created_on><sys_id>663d57734f731200503d33718110c77d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_tax_survey" sys_domain="global" view="Default view">6d4c83fb4f331200503d33718110c737</sys_ui_section><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 07:19:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_tax_survey</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Manoj</sys_created_by><sys_created_on>2016-06-11 06:05:32</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6d4c83fb4f331200503d33718110c737</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_tax_survey</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_6d4c83fb4f331200503d33718110c737</sys_update_name><sys_updated_by>Manoj</sys_updated_by><sys_updated_on>2016-06-11 06:05:32</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="NASSCOM V1">095c2c444f802200503d33718110c79e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Manoj</sys_created_by>
+<sys_created_on>2016-06-11 13:05:13</sys_created_on>
+<sys_id>cd5ce8844f802200503d33718110c7bc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Manoj</sys_updated_by>
+<sys_updated_on>2016-06-11 13:05:13</sys_updated_on>
+<table>u_tax_survey</table>
+<target_name>Tax Survey</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
